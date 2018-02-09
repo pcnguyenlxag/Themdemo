@@ -67,7 +67,7 @@ h1.product-title {
     background-color: #e67e22;
     display: inline-block;
     padding: 2px 3px;
-    color: #ffffff;
+    color: #f7f1e3;
     font-size: 26px;
     font-weight: bold;
 }
@@ -75,8 +75,8 @@ h1.product-title {
     /* margin-top: 1rem; */
 }
 .card > img {
-	width: 14rem;
-	height: auto;
+	/* max-width: 14rem; */
+    max-height: 180px;
 }
 .fill-card > img {
 	width: 150px;
@@ -155,4 +155,40 @@ h1.product-title {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
+}
+/* ************ FOOTER ************* */
+ul {
+    list-style: none;
+}
+.main-footer {
+    height: 100%
+}
+.footer-item {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    line-height: 15px;
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border: 2px solid #44bd32;
+    border-radius: 50%;
+    color: #44bd32;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sub-footer {
+    height: 100%;
+    background-color: #e67e22;
+}
+.sub-footer p {
+    margin: 0;
+    color: #f7f1e3;
 }
