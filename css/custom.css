@@ -19,6 +19,13 @@
 .menu-top-block {
     margin: auto 0.5rem;
 }
+/* navbar */
+.nav-item.active {
+    border-bottom: 2px solid #e67e22;
+}
+ul.navbar-nav > li {
+    padding: 0.5rem 0;
+}
 /* cart */
 .cart-item	{
 	vertical-align: middle;
@@ -245,5 +252,5 @@ ul {
 }
 .main-footer {
     padding: 3rem 0;
-    background-color: #C4E5381A;
+    background-color: #C4E53833;
 }
